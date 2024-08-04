@@ -1,0 +1,186 @@
+*{
+    margin: 0px;
+    font-family:Arial;
+    border:border-box;
+}
+.navbar{
+    background-color:#0F1111;
+    height: 60px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+}
+.logo img{
+    height: 50px;    
+    width: 50px;
+    background-size: cover;
+    border-radius: 50%;
+}
+.border{
+    border:2px solid transparent;
+}
+.border:hover{
+    border:2px solid white;
+}
+/** box2**/
+.mera-1{
+    color:#CCCCCC;
+    font-size: 0.8rem;
+    margin-left: 15px;
+}
+.mera-2{
+    color:#FFFFFF;
+    font-size:1rem;
+    margin-left: 3px; 
+
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+/**box-3**/
+.nav-search{
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+    width: 600px;
+    height: 40px;
+    border-radius: 4px;
+    
+}
+.search-icon{
+    color:#0F1111;
+    width: 45px;
+    border: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    background-color: #FEDB68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    
+}
+.search-input{
+    width: 100%;
+    border: none;
+}
+.search-select{
+    background-color: #E6E6E6;
+    width: 70px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+
+}
+/**box-4**/
+span{
+    font-size: 0.7rem;
+}
+.nav-second{
+   font-size: 0.95rem;
+   font-weight: 700;
+}
+.nav-search:hover{
+    border:2px solid orange;
+}
+/**box-5**/
+.cart i{
+   font-size: 35px;
+}
+.cart{
+    display: flex;
+    align-items: center;
+}
+/**panel**/
+.panel{
+    display: flex;
+    justify-content: left;
+    background-color:rgb(42, 52, 49);
+    color: #CCCCCC;
+    height: 38px;
+    align-items: center;
+}
+.panel-ops {
+    display: flex;
+    align-items: center;
+    width: 60%;
+}
+.panel-1{
+    margin-left: 20px;
+}
+.panel-ops p{
+    margin-left: 20px;
+}
+/**hero sec**/
+.hero{
+    background-image: url(hero1.jpg);
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+.hero-msg{
+    background-color: white;
+    color: #0F1111;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin-bottom: 20px;
+}
+/**shop-section**/
+.box{
+   width: 200px;
+   height:250px;
+   border-radius: 8px;
+   margin: 10px auto;
+   border:2px solid wheat;
+   background-color:rgb(115, 115, 236);
+   color: white;
+   
+}
+.user{
+    width: 100%;
+    margin-top: auto;
+}
+.images{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:#e2e7e6;
+    
+}
+.repo{
+    border: 1px solid blue;
+    width: 50%;
+    text-align: center;
+    font-style: italic;
+}
+.certi{
+    width: auto;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.certi-img{
+    width: 50%;
+    height: 50%;
+    border-radius: 8px;
+}
+.newman{
+    text-align: center;
+    
+}
